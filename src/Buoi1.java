@@ -45,8 +45,8 @@ public class Buoi1 {
         }else{
             System.out.println(-1);
         }*/
-        int total = 100000;
-        if (total>) {
+      /*  int total = 100000;
+        if (total>0) {
             if (total > 100000) {
                 total = (int) (total * 0.9);
                 System.out.println("Bạn được giảm 10%, tiền cần thanh toán: " + total);
@@ -62,6 +62,18 @@ public class Buoi1 {
         }else{
             System.out.println("Error!!");
         }
+    }*/
+        String [] arrNames = {"Teo","Ti","Tun"};
+        System.out.println(arrNames[0]);
+        System.out.println(arrNames.length);
+        arrNames[0] = "Tuan";
+        System.out.println(arrNames[0]);
+        // vòng lặp
+        for(int i =0; i< arrNames.length;i++){
+            System.out.println(i);
+        }
     }
+
+
 }
 
